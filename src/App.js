@@ -16,19 +16,20 @@ const Product = lazy(() => import("./pages/Product"));
 const PageNotFound = lazy(() => import("./pages/PageNotFound"));
 const BlogPage = lazy(() => import("./pages/Blog"));
 const BlogDetail = lazy(() => import("./pages/BlogDetail"));
+const PrivacyPolicy = lazy(() => import("./pages/PrivicyPolicy"));
 
 function App() {
   const [showModal, setShowModal] = useState(false);
 
   const [isFormOk, setIsFormOk] = useState(false);
 
-  useEffect(() => {
-    // console.log(isFormOk);
-    // const timer = setTimeout(() => {
-    //   setShowModal(!showModal);
-    // }, 4000);
-    // return () => clearTimeout(timer);
-  }, [isFormOk]);
+  // useEffect(() => {
+  //   // console.log(isFormOk);
+  //   // const timer = setTimeout(() => {
+  //   //   setShowModal(!showModal);
+  //   // }, 4000);
+  //   // return () => clearTimeout(timer);
+  // }, [isFormOk]);
 
   return (
     <Router>
@@ -57,6 +58,7 @@ function App() {
               <Route path="/services" element={<Services />} />
               {/* <Route path="/contact us" element={<ContactForm />} /> */}
               <Route path="/contact us" element={<Contact />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/payment" element={<PaymentFormWithQR />} />
 
               <Route path="*" element={<PageNotFound />} />

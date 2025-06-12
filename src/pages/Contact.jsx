@@ -137,7 +137,7 @@ export default function ContactUs() {
             <div className="space-y-3">
               <p>
                 <MapPin className="inline mr-2 text-blue-700" />
-                Connaught Place, New Delhi, India
+                2st Floor, B-7, Sector-2 Noida, Uttar Pradesh, India
               </p>
               <p>
                 <Phone className="inline mr-2 text-blue-700" />
@@ -145,8 +145,8 @@ export default function ContactUs() {
               </p>
               <p>
                 <Mail className="inline mr-2 text-blue-700" />
-                <a href="mailto:info@freedomfilling.com">
-                  info@freedomfilling.com
+                <a href="mailto:info@freedomsolutions.com">
+                  info@freedomsolution.com
                 </a>
               </p>
             </div>
@@ -154,42 +154,19 @@ export default function ContactUs() {
 
           {/* Map */}
           <iframe
-            title="Map Location"
-            src="https://www.google.com/maps?q=28.5853255,77.3129955&output=embed"
+            title="Our Office Location on Google Maps"
+            src="https://www.google.com/maps?q=28.585260,77.312930&output=embed"
             class="w-full h-64 border-0 rounded-lg shadow-md"
-            allowfullscreen=""
+            allowfullscreen
             loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            onload="console.log('Map iframe loaded');"
           ></iframe>
         </motion.div>
       </div>
 
       {/* FAQ */}
-      {/* <div className="max-w-5xl mx-auto mt-12 px-4">
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          className="bg-white p-6 rounded-lg shadow-md"
-        >
-          <h3 className="text-xl font-semibold text-blue-800 mb-4">FAQs</h3>
-          <details className="mb-3">
-            <summary className="cursor-pointer font-medium">
-              How soon will I hear back?
-            </summary>
-            <p className="mt-1 text-gray-600">
-              We respond within 24 business hours.
-            </p>
-          </details>
-          <details>
-            <summary className="cursor-pointer font-medium">
-              Can I schedule a demo?
-            </summary>
-            <p className="mt-1 text-gray-600">
-              Yes! Please mention a date/time in your message.
-            </p>
-          </details>
-        </motion.div>
-      </div> */}
+
       <div className="max-w-5xl mx-auto mt-12 px-4">
         <motion.div
           initial={{ opacity: 0 }}
@@ -302,7 +279,6 @@ export default function ContactUs() {
       </div>
 
       {/* Success Modal */}
-
       <AnimatePresence>
         {showModal && (
           <motion.div

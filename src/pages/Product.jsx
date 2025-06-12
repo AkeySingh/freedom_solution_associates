@@ -21,6 +21,17 @@ function Product() {
   const [showModal, setShowModal] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
   const onSubmit = async (e) => {
     e.preventDefault();
     setSubmitting(true);
@@ -82,77 +93,85 @@ function Product() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-8 px-4 md:px-20 py-10">
+      <div className="grid md:grid-cols-3 gap-8 px-4 md:px-20 py-0">
         <div className="bg-blue-900 rounded-xl p-6 text-white shadow-xl">
-          <div className="flex items-center justify-center h-64">
-            <div className=" text-white p-4 rounded shadow">
+          <div className="flex items-center justify-center h-auto">
+            <div className="text-white p-4 rounded shadow">
               <h2 className="text-xl font-bold mb-4">
                 {data.contact.helpText}
               </h2>
+
               <a
                 href={`tel:${data.contact.phone}`}
-                className="bg-orange-600 hover:bg-orange-500 text-white flex items-center justify-center gap-2 px-4 py-3  rounded-lg font-semibold"
+                className="bg-orange-600 hover:bg-orange-500 text-white flex items-center justify-center gap-2 px-4 py-3 rounded-lg font-semibold"
               >
                 <Phone className="w-5 h-5" /> {data.contact.phone}
               </a>
+
+              <form
+                onSubmit={(e) => onSubmit(e, formData)}
+                className="space-y-2 mt-4"
+              >
+                <div>
+                  <label className="block text-sm font-medium mb-1">
+                    Full Name
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                    className="w-full border px-4 py-2 rounded-md focus:ring-2 focus:ring-blue-500 text-black"
+                    placeholder="Enter your name"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium mb-1">
+                    Phone
+                  </label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    required
+                    className="w-full border px-4 py-2 rounded-md focus:ring-2 focus:ring-blue-500 text-black"
+                    placeholder="Enter your phone number"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium mb-1">
+                    Message
+                  </label>
+                  <textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    rows="4"
+                    required
+                    className="w-full border px-4 py-2 text-black rounded-md focus:ring-2 focus:ring-blue-500"
+                    placeholder="How can we help you?"
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={submitting}
+                  className={`w-full bg-blue-600 text-white py-2 rounded-md transition ${
+                    submitting
+                      ? "opacity-50 cursor-not-allowed"
+                      : "hover:bg-blue-700"
+                  }`}
+                >
+                  {submitting ? "Sending..." : "Submit Message"}
+                </button>
+              </form>
             </div>
           </div>
         </div>
-        {/* <form onSubmit={onSubmit} className="space-y-2">
-            <div>
-              <label className="block text-sm font-medium mb-1">
-                Full Name
-              </label>
-              <input
-                type="text"
-                name="name"
-                required
-                className="w-full border px-4 py-2 rounded-md focus:ring-2 focus:ring-blue-500"
-                placeholder="Enter your name"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium mb-1">Email</label>
-              <input
-                type="email"
-                name="email"
-                required
-                className="w-full border px-4 py-2 rounded-md focus:ring-2 focus:ring-blue-500"
-                placeholder="Enter your email address"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium mb-1">Phone</label>
-              <input
-                type="number"
-                name="phone"
-                required
-                className="w-full border px-4 py-2 rounded-md focus:ring-2 focus:ring-blue-500"
-                placeholder="Enter your phone number "
-              />
-            </div>
-            <div>
-              <label className="block text-sm  font-medium mb-1">Message</label>
-              <textarea
-                name="message"
-                rows="4"
-                required
-                className="w-full border px-4 py-2 text-black rounded-md focus:ring-2 focus:ring-blue-500"
-                placeholder="How can we help you?"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              disabled={submitting}
-              className={`w-full bg-blue-600 text-white py-2 rounded-md transition ${
-                submitting
-                  ? "opacity-50 cursor-not-allowed"
-                  : "hover:bg-blue-700"
-              }`}
-            >
-              {submitting ? "Sending..." : "Submit Message"}
-            </button>
-          </form> */}
 
         <motion.div
           className="bg-blue-800 text-white p-6 rounded-xl col-span-1 shadow-xl"
@@ -313,16 +332,22 @@ function Product() {
                 <CheckCircle className="text-green-600" size={36} />
               </div>
 
-              <h4 className="text-xl font-bold text-gray-800">Message Sent!</h4>
+              <h4 className="text-xl text-green-700 font-bold text-gray-900">
+                Thank You
+              </h4>
+              <h4 className="text-xl font-semibold text-gray-800">
+                Your message has been sent
+              </h4>
               <p className="text-sm text-gray-600 mt-2">
-                Thanks for reaching out — we'll get back to you shortly.
+                Thank you for reaching out. Our team has received your message
+                and will respond within 1–2 business days.
               </p>
 
               <button
                 onClick={() => setShowModal(false)}
                 className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-700 hover:scale-105 transition-transform duration-200"
               >
-                OK
+                Close
               </button>
 
               {/* Decorative glow */}
