@@ -224,9 +224,8 @@ function Product() {
               {data.relatedServices.map((service, i) => (
                 <div
                   key={i}
-                  className="bg-gray-300 hover:bg-orange-600  p-4 rounded-lg text-center font-medium shadow"
+                  className="bg-gray-300 hover:bg-orange-600 hover:cursor-pointer p-4 rounded-lg text-center font-medium shadow"
                 >
-                  {/* <Link to={`/${service}`}> {service}</Link> */}
                   {service}
                 </div>
               ))}
