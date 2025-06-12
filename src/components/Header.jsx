@@ -183,18 +183,8 @@ const Header = () => {
             <img
               src={LogoImg}
               alt="Freedom Filling Logo"
-              className="h-16 w-auto object-contain"
+              className="h-12 w-auto object-contain"
             />
-
-            <div className="flex items-end space-x-2 group">
-              {/* Finance Icon */}
-              {/* <ChartBarIcon className="w-5 h-8 text-orange-600 group-hover: scale-140 transition-transform duration-300" /> */}
-
-              {/* Logo Text */}
-              {/* <span className="text-lg sm:text-xl md:text-2xl text-orange-600 font-[Playfair_Display] tracking-tight group-hover:scale-105 transition-transform duration-300">
-                Freedom
-              </span> */}
-            </div>
           </Link>
         </div>
 
@@ -213,12 +203,6 @@ const Header = () => {
           {renderDropdown("MCA", menuItems.MCA, "MCA")}
           {renderDropdown("More", menuItems.More, "More")}
 
-          {/* <a
-            href="#"
-            className="text-white hover:text-[#FF8C00] font-medium transition duration-200"
-          >
-            Consultation
-          </a> */}
           <a
             href="/about us"
             className="text-white hover:text-[#FF8C00] font-medium transition duration-200"

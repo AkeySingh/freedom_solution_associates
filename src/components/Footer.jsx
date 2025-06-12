@@ -9,7 +9,7 @@ import {
   Phone,
   Twitter,
 } from "lucide-react";
-import LogoImg from "../images/logo02.jpeg";
+import LogoImg from "../images/logo02.png";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -21,11 +21,7 @@ export default function Footer() {
         transition={{ duration: 0.6 }}
         className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-4 gap-10"
       >
-        {/* Brand Info */}
         <div>
-          {/* <h2 className="text-2xl font-bold text-white mb-4">
-            SGS & Associates LLP
-          </h2> */}
           <Link to="/" className="flex items-center">
             <img
               src={LogoImg}
@@ -65,7 +61,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="/privacy" className="hover:text-white">
+              <a href="/privacy-policy" className="hover:text-white">
                 Privacy Policy
               </a>
             </li>
@@ -112,7 +108,7 @@ export default function Footer() {
           <ul className="space-y-3 text-gray-400">
             <li className="flex items-start gap-2">
               <MapPin size={18} className="text-white mt-1" />
-              <span>2st Floor, B-7, Sector-2 Noida, Uttar Pradesh, Indias</span>
+              <span>2st Floor, B-7, Sector-2 Noida, Uttar Pradesh, India</span>
             </li>
             <li className="flex items-center gap-2">
               <Phone size={18} className="text-white" />

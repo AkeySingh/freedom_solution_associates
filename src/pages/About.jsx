@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-// import PaymentQRForm from "../components/PaymentQRForm";
+import teamImg from "../images/Team.svg";
 
 export default function AboutUs() {
   return (
@@ -48,7 +48,7 @@ export default function AboutUs() {
             </p>
           </motion.div>
           <motion.img
-            src="https://images.unsplash.com/photo-1603202590485-7f4ac994d5c3"
+            src={teamImg}
             alt="CA team"
             className="rounded-lg shadow-md"
             initial={{ x: 50, opacity: 0 }}
@@ -117,15 +117,15 @@ export default function AboutUs() {
             {[
               [
                 "Expertise",
-                "Qualified CAs with 10+ years of industry experience.",
+                "Our team includes Chartered Accountants with over 6 years of experience across       industries like manufacturing, retail, and IT services.",
               ],
               [
                 "Client-Centric",
-                "We listen, understand, and deliver customized solutions.",
+                "We’ve successfully served over 120 SMEs, tailoring solutions based on business goals, compliance needs, and growth plans.",
               ],
               [
                 "Tech-Driven",
-                "We use secure cloud systems & tools for real-time access.",
+                "We leverage cloud-based platforms like Zoho Books and QuickBooks, providing clients with 24/7 access to financial dashboards and real-time updates.",
               ],
             ].map(([title, desc], index) => (
               <motion.div
@@ -158,9 +158,9 @@ export default function AboutUs() {
           </motion.h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              ["CA Ravi Shankar", "Founder & Tax Expert"],
-              ["CA Neha Kapoor", "Compliance & ROC Specialist"],
-              ["CA Ravi Mehta", "Audit & Assurance Head"],
+              ["Ravi Shankar", "Founder & Tax Expert"],
+              ["Neha Dhupia", "Compliance & ROC Specialist"],
+              ["Rahul Mehta", "Audit & Assurance Head"],
             ].map(([name, title], i) => (
               <motion.div
                 key={i}
