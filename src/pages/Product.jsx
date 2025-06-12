@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Products from "../assets/product-data.json";
 import Spinner from "../components/Spinner";
 import { motion, AnimatePresence } from "framer-motion";

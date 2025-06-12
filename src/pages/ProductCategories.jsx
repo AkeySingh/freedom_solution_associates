@@ -10,7 +10,7 @@ import startupImg from "../images/startup.jpg";
 import registrationsImg from "../images/registration.webp";
 import mcaImg from "../images/mca.jpg";
 import incomtaxImg from "../images/income-tax.png";
-import complienceImg from "../images/comliance.jpg";
+// import complienceImg from "../images/comliance.jpg";
 
 const StartupCards = () => {
   const [services, setServices] = useState([]);
@@ -30,7 +30,7 @@ const StartupCards = () => {
     } else if (param.id === "Registration") {
       setImg(registrationsImg);
     } else if (param.id === "Compliance") {
-      setImg(complienceImg);
+      // setImg(complienceImg);
     } else if (param.id === "GST") {
       setImg(gstImg);
     } else if (param.id === "Income Tax") {
