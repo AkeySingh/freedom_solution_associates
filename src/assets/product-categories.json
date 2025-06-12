@@ -1,0 +1,599 @@
+{
+  "Startup": [
+    {
+      "title": "Proprietorship",
+      "content": "A Proprietorship is a business owned and operated by a single individual.",
+      "image": "../images/banner01.jpg"
+    },
+    {
+      "title": "Partnership",
+      "content": "A Partnership is a business owned by two or more individuals.",
+      "image": "https://example.com/partnership.jpg"
+    },
+    {
+      "title": "One Person Company",
+      "content": "An One Person Company (OPC) is a new type of company in India where only one person can hold the entire shareholding.",
+      "image": "https://example.com/one-person-company.jpg"
+    },
+    {
+      "title": "Limited Liability Partnership",
+      "content": "An LLP is a business structure that combines the benefits of a partnership and a company.",
+      "image": "https://example.com/llp.jpg"
+    },
+    {
+      "title": "Private Limited Company",
+      "content": "A Private Limited Company is a type of company that is privately owned and offers limited liability to its owners.",
+      "image": "https://example.com/private-limited-company.jpg"
+    },
+    {
+      "title": "Section 8 Company",
+      "content": "A Section 8 Company is a non-profit organization registered under the Companies Act 2013 in India.",
+      "image": "https://example.com/section-8-company.jpg"
+    },
+    {
+      "title": "Trust Registration",
+      "content": "Trust Registration is the legal process of forming a trust for charitable or social purposes.",
+      "image": "https://example.com/trust-registration.jpg"
+    },
+    {
+      "title": "Public Limited Company",
+      "content": "A Public Limited Company is a company whose shares are publicly traded on the stock exchange.",
+      "image": "https://example.com/public-limited-company.jpg"
+    },
+    {
+      "title": "Producer Company",
+      "content": "A Producer Company is a type of organization formed by farmers and producers to improve the marketing of their products.",
+      "image": "https://example.com/producer-company.jpg"
+    },
+    {
+      "title": "Indian Subsidiary",
+      "content": "An Indian Subsidiary is a company incorporated in India that is owned by a foreign company.",
+      "image": "https://example.com/indian-subsidiary.jpg"
+    }
+  ],
+
+  "Registration": [
+    {
+      "title": "Company Registration",
+      "content": "We assist you in registering your company with complete legal compliance and documentation.",
+      "image": "https://example.com/company-registration.jpg"
+    },
+    {
+      "title": "Startup India",
+      "content": "Startup India initiative by the Indian Government promotes innovation through benefits for startups.",
+      "image": "https://example.com/startup-india.jpg"
+    },
+    {
+      "title": "Trade License",
+      "content": "Obtain your trade license quickly and hassle-free to comply with municipal regulations.",
+      "image": "https://example.com/trade-license.jpg"
+    },
+    {
+      "title": "FSSAI Registration",
+      "content": "Essential for businesses in the food sector to ensure hygiene and safety compliance.",
+      "image": "https://example.com/fssai-registration.jpg"
+    },
+    {
+      "title": "FSSAI License",
+      "content": "Get your FSSAI License to run your food business legally with proper food safety approvals.",
+      "image": "https://example.com/fssai-license.jpg"
+    },
+    {
+      "title": "Shop Act Registration",
+      "content": "Mandatory for shops and establishments to regulate working conditions and employee rights.",
+      "image": "https://example.com/shop-act-registration.jpg"
+    },
+    {
+      "title": "Halal License & Certification",
+      "content": "Ensure your products meet Halal standards with our certification services.",
+      "image": "https://example.com/halal-license.jpg"
+    },
+    {
+      "title": "ICEGATE Registration",
+      "content": "Register on ICEGATE to facilitate imports, exports, and customs clearance digitally.",
+      "image": "https://example.com/icegate-registration.jpg"
+    },
+    {
+      "title": "Import Export Code",
+      "content": "Obtain IEC to start import-export operations under DGFT regulations.",
+      "image": "https://example.com/import-export-code.jpg"
+    },
+    {
+      "title": "Legal Entity Identifier Code",
+      "content": "LEI code is a unique ID required for legal entities participating in financial transactions.",
+      "image": "https://example.com/lei-code.jpg"
+    },
+    {
+      "title": "ISO Registration",
+      "content": "Improve your business credibility with ISO certifications across various standards.",
+      "image": "https://example.com/iso-registration.jpg"
+    },
+    {
+      "title": "PF Registration",
+      "content": "Register for Provident Fund to ensure social security benefits for employees.",
+      "image": "https://example.com/pf-registration.jpg"
+    },
+    {
+      "title": "ESI Registration",
+      "content": "ESI registration enables employee health insurance and social protection.",
+      "image": "https://example.com/esi-registration.jpg"
+    },
+    {
+      "title": "Professional Tax Registration",
+      "content": "Register to comply with state-imposed taxes on professionals and salaried employees.",
+      "image": "https://example.com/professional-tax.jpg"
+    },
+    {
+      "title": "RCMC Registration",
+      "content": "RCMC is essential for exporters to avail benefits under foreign trade policies.",
+      "image": "https://example.com/rcmc-registration.jpg"
+    },
+    {
+      "title": "TN RERA Registration for Agents",
+      "content": "Mandatory for real estate agents in Tamil Nadu to operate legally under RERA.",
+      "image": "https://example.com/tn-rera.jpg"
+    },
+    {
+      "title": "12A and 80G Registration",
+      "content": "Get income tax exemptions for NGOs by registering under 12A and 80G.",
+      "image": "https://example.com/12a-80g.jpg"
+    },
+    {
+      "title": "12A Registration",
+      "content": "Secure 12A registration to gain tax exemption status for your NGO.",
+      "image": "https://example.com/12a-registration.jpg"
+    },
+    {
+      "title": "80G Registration",
+      "content": "Allow donors to avail income tax deductions through 80G registration.",
+      "image": "https://example.com/80g-registration.jpg"
+    },
+    {
+      "title": "APEDA Registration",
+      "content": "Mandatory for exporters of agricultural products to register with APEDA.",
+      "image": "https://example.com/apeda-registration.jpg"
+    },
+    {
+      "title": "Barcode Registration",
+      "content": "Get barcode registration to track retail and inventory efficiently.",
+      "image": "https://example.com/barcode-registration.jpg"
+    },
+    {
+      "title": "BIS Registration",
+      "content": "Ensure product quality with Bureau of Indian Standards certification.",
+      "image": "https://example.com/bis-registration.jpg"
+    },
+    {
+      "title": "Certificate of Incumbency",
+      "content": "Get an official record of current officers of a company for verification.",
+      "image": "https://example.com/certificate-of-incumbency.jpg"
+    },
+    {
+      "title": "Darpan Registration",
+      "content": "NGOs must register on the Darpan portal to receive government grants.",
+      "image": "https://example.com/darpan-registration.jpg"
+    },
+    {
+      "title": "Digital Signature",
+      "content": "Digital signatures are essential for online filing, contracts, and secure authentication.",
+      "image": "https://example.com/digital-signature.jpg"
+    },
+    {
+      "title": "Digital Signature - DGFT Version",
+      "content": "DGFT-specific DSCs are required for businesses dealing in imports/exports.",
+      "image": "https://example.com/dsc-dgft.jpg"
+    },
+    {
+      "title": "Drug License",
+      "content": "Mandatory license for businesses dealing in pharmaceutical products.",
+      "image": "https://example.com/drug-license.jpg"
+    },
+    {
+      "title": "Udyam Registration",
+      "content": "Register as an MSME to enjoy various government incentives and schemes.",
+      "image": "https://example.com/udyam-registration.jpg"
+    },
+    {
+      "title": "FCRA Registration",
+      "content": "Required for NGOs receiving foreign contributions or donations.",
+      "image": "https://example.com/fcra-registration.jpg"
+    },
+    {
+      "title": "Fire License",
+      "content": "Necessary for establishments to certify fire safety compliance.",
+      "image": "https://example.com/fire-license.jpg"
+    }
+  ],
+  "Trademark": [
+    {
+      "title": "Trademark Registration",
+      "content": "Protect your brand name and logo by registering your trademark legally.",
+      "image": "https://example.com/trademark-registration.jpg"
+    },
+    {
+      "title": "Trademark Objection",
+      "content": "We help you respond to objections raised by the Trademark Registry effectively.",
+      "image": "https://example.com/trademark-objection.jpg"
+    },
+    {
+      "title": "Trademark Certificate",
+      "content": "Get your official Trademark Certificate as proof of brand ownership.",
+      "image": "https://example.com/trademark-certificate.jpg"
+    },
+    {
+      "title": "Trademark Opposition",
+      "content": "File or defend against oppositions raised during the trademark registration process.",
+      "image": "https://example.com/trademark-opposition.jpg"
+    },
+    {
+      "title": "Trademark Hearing",
+      "content": "We represent your case during trademark hearings for approval or disputes.",
+      "image": "https://example.com/trademark-hearing.jpg"
+    },
+    {
+      "title": "Trademark Rectification",
+      "content": "Rectify any errors or issues in your registered trademark through legal procedures.",
+      "image": "https://example.com/trademark-rectification.jpg"
+    },
+    {
+      "title": "TM Infringement Notice",
+      "content": "Send legal notices in case your registered trademark rights are violated.",
+      "image": "https://example.com/tm-infringement-notice.jpg"
+    },
+    {
+      "title": "Trademark Renewal",
+      "content": "Renew your trademark before expiry to maintain ownership rights.",
+      "image": "https://example.com/trademark-renewal.jpg"
+    },
+    {
+      "title": "Trademark Transfer",
+      "content": "Legally transfer ownership of a trademark with proper documentation.",
+      "image": "https://example.com/trademark-transfer.jpg"
+    },
+    {
+      "title": "Expedited TM Registration",
+      "content": "Speed up the registration process with expedited trademark filing services.",
+      "image": "https://example.com/expedited-tm-registration.jpg"
+    },
+    {
+      "title": "International Trademark",
+      "content": "Register your trademark internationally under the Madrid Protocol.",
+      "image": "https://example.com/international-trademark.jpg"
+    },
+    {
+      "title": "Logo Designing",
+      "content": "Get a unique and professional logo designed to represent your brand.",
+      "image": "https://example.com/logo-designing.jpg"
+    },
+    {
+      "title": "Design Registration",
+      "content": "Protect the unique design and aesthetics of your product or logo.",
+      "image": "https://example.com/design-registration.jpg"
+    },
+    {
+      "title": "Design Objection",
+      "content": "Handle objections raised in your design registration application professionally.",
+      "image": "https://example.com/design-objection.jpg"
+    },
+    {
+      "title": "Copyright Registration",
+      "content": "Secure your creative work legally through copyright registration.",
+      "image": "https://example.com/copyright-registration.jpg"
+    },
+    {
+      "title": "Copyright Objection",
+      "content": "Respond to objections raised against your copyright application with legal support.",
+      "image": "https://example.com/copyright-objection.jpg"
+    },
+    {
+      "title": "Patent Registration",
+      "content": "Protect your unique invention with a registered patent in India.",
+      "image": "https://example.com/patent-registration.jpg"
+    }
+  ],
+  "GST": [
+    {
+      "title": "GST Registration",
+      "content": "Get your business registered under GST to comply with tax regulations and start operations smoothly.",
+      "image": "https://example.com/gst-registration.jpg"
+    },
+    {
+      "title": "GST Return Filing by Accountant",
+      "content": "Let professional accountants handle your monthly or quarterly GST return filings accurately.",
+      "image": "https://example.com/gst-return-filing.jpg"
+    },
+    {
+      "title": "GST Annual Return Filing (GSTR-9)",
+      "content": "File your annual GST returns (GSTR-9) with expert support to ensure compliance.",
+      "image": "https://example.com/gstr9-filing.jpg"
+    },
+    {
+      "title": "GST E-Invoicing Software",
+      "content": "Generate and manage GST-compliant e-invoices using our easy-to-use software.",
+      "image": "https://example.com/gst-einvoicing-software.jpg"
+    },
+    {
+      "title": "GST LUT Form",
+      "content": "File your GST LUT (Letter of Undertaking) to export goods and services without paying IGST.",
+      "image": "https://example.com/gst-lut-form.jpg"
+    },
+    {
+      "title": "GST Notice",
+      "content": "Respond to any GST notices effectively with our expert legal and accounting support.",
+      "image": "https://example.com/gst-notice.jpg"
+    },
+    {
+      "title": "GST Registration for Foreigners",
+      "content": "Get GST registration for non-resident taxable persons and foreign entities operating in India.",
+      "image": "https://example.com/gst-registration-foreigners.jpg"
+    },
+    {
+      "title": "GST Invoicing & Filing Software",
+      "content": "Use our GST invoicing and filing software for easy tax calculation, billing, and returns.",
+      "image": "https://example.com/gst-filing-software.jpg"
+    },
+    {
+      "title": "GST Amendment",
+      "content": "Make amendments or corrections in your existing GST registration with expert help.",
+      "image": "https://example.com/gst-amendment.jpg"
+    },
+    {
+      "title": "GST Revocation",
+      "content": "Revoke cancelled GST registrations with proper documentation and support.",
+      "image": "https://example.com/gst-revocation.jpg"
+    },
+    {
+      "title": "GSTR-10",
+      "content": "File final returns (GSTR-10) after the cancellation of GST registration to close compliance.",
+      "image": "https://example.com/gstr-10-filing.jpg"
+    },
+    {
+      "title": "GST Software for Accountants",
+      "content": "Advanced GST software designed for accountants to manage multiple client filings efficiently.",
+      "image": "https://example.com/gst-software-accountants.jpg"
+    }
+  ],
+  "Income Tax": [
+    {
+      "title": "Income Tax E-Filing",
+      "content": "Hassle-free online income tax return filing for individuals and businesses.",
+      "image": "https://example.com/income-tax-efiling.jpg"
+    },
+    {
+      "title": "Business Tax Filing",
+      "content": "Expert assistance for accurate and timely business income tax filings.",
+      "image": "https://example.com/business-tax-filing.jpg"
+    },
+    {
+      "title": "ITR-1 Return Filing",
+      "content": "ITR-1 filing for salaried individuals with income up to ₹50 lakh and one house property.",
+      "image": "https://example.com/itr1.jpg"
+    },
+    {
+      "title": "ITR-2 Return Filing",
+      "content": "ITR-2 filing for individuals and HUFs not having income from business or profession.",
+      "image": "https://example.com/itr2.jpg"
+    },
+    {
+      "title": "ITR-3 Return Filing",
+      "content": "ITR-3 filing for individuals and HUFs having income from business or profession.",
+      "image": "https://example.com/itr3.jpg"
+    },
+    {
+      "title": "ITR-4 Return Filing",
+      "content": "ITR-4 filing under presumptive income scheme for small businesses and professionals.",
+      "image": "https://example.com/itr4.jpg"
+    },
+    {
+      "title": "ITR-5 Return Filing",
+      "content": "ITR-5 filing for partnership firms, LLPs, AOPs, BOIs and others.",
+      "image": "https://example.com/itr5.jpg"
+    },
+    {
+      "title": "ITR-6 Return Filing",
+      "content": "ITR-6 filing for companies other than those claiming exemption under section 11.",
+      "image": "https://example.com/itr6.jpg"
+    },
+    {
+      "title": "ITR-7 Return Filing",
+      "content": "ITR-7 filing for persons including trusts, political parties, institutions, etc.",
+      "image": "https://example.com/itr7.jpg"
+    },
+    {
+      "title": "15CA - 15CB Filing",
+      "content": "Assistance in filing Form 15CA and 15CB for remittances made to non-residents.",
+      "image": "https://example.com/15ca-15cb.jpg"
+    },
+    {
+      "title": "TAN Registration",
+      "content": "Get your Tax Deduction and Collection Account Number (TAN) registered quickly.",
+      "image": "https://example.com/tan-registration.jpg"
+    },
+    {
+      "title": "TDS Return Filing",
+      "content": "Quarterly TDS return filing for employers and businesses as per Income Tax rules.",
+      "image": "https://example.com/tds-return-filing.jpg"
+    },
+    {
+      "title": "Income Tax Notice",
+      "content": "Professional help in responding to income tax notices and resolving disputes.",
+      "image": "https://example.com/income-tax-notice.jpg"
+    }
+  ],
+  "Compliance": [
+    {
+      "title": "Bookkeeping",
+      "content": "Maintain accurate financial records and ensure proper tracking of business income and expenses.",
+      "image": "https://example.com/bookkeeping.jpg"
+    },
+    {
+      "title": "Proprietorship Compliance",
+      "content": "Ensure regulatory and tax compliance for sole proprietorships, including return filings and audits.",
+      "image": "https://example.com/proprietorship-compliance.jpg"
+    },
+    {
+      "title": "Partnership Compliance",
+      "content": "Manage filings, audits, and regulatory requirements for registered partnership firms.",
+      "image": "https://example.com/partnership-compliance.jpg"
+    },
+    {
+      "title": "Professional Tax Return Filing",
+      "content": "File professional tax returns for employers and employees as per state regulations.",
+      "image": "https://example.com/professional-tax-filing.jpg"
+    },
+    {
+      "title": "ESI Return Filing",
+      "content": "Ensure timely filing of ESI returns to stay compliant with Employee State Insurance norms.",
+      "image": "https://example.com/esi-return-filing.jpg"
+    },
+    {
+      "title": "PF Return Filing",
+      "content": "Monthly Provident Fund (PF) return filing services to comply with EPFO regulations.",
+      "image": "https://example.com/pf-return-filing.jpg"
+    },
+    {
+      "title": "HR & Payroll",
+      "content": "Comprehensive HR and payroll processing services including salary computation, payslips, and tax deductions.",
+      "image": "https://example.com/hr-payroll.jpg"
+    },
+    {
+      "title": "Business Plan",
+      "content": "Create a customized and professional business plan to attract investors and guide your business growth.",
+      "image": "https://example.com/business-plan.jpg"
+    },
+    {
+      "title": "FSSAI Return Filing",
+      "content": "File FSSAI annual returns and maintain food business compliance with FSSAI regulations.",
+      "image": "https://example.com/fssai-return-filing.jpg"
+    },
+    {
+      "title": "FSSAI Renewal",
+      "content": "Renew your FSSAI license to continue lawful food business operations without penalties.",
+      "image": "https://example.com/fssai-renewal.jpg"
+    },
+    {
+      "title": "FLA Return Filing",
+      "content": "Annual FLA return filing with RBI for companies receiving foreign investments or overseas assets.",
+      "image": "https://example.com/fla-return-filing.jpg"
+    },
+    {
+      "title": "FDI Filing with RBI",
+      "content": "Ensure proper filing and compliance for Foreign Direct Investment (FDI) transactions with RBI.",
+      "image": "https://example.com/fdi-filing-rbi.jpg"
+    }
+  ],
+  "MCA": [
+    {
+      "title": "Winding Up - Company",
+      "content": "Assistance with voluntary or compulsory company winding-up process in compliance with MCA norms.",
+      "image": "https://example.com/winding-up-company.jpg"
+    },
+    {
+      "title": "Winding Up - LLP",
+      "content": "Professional support to wind up LLPs legally through streamlined documentation and filing.",
+      "image": "https://example.com/winding-up-llp.jpg"
+    },
+    {
+      "title": "Demat of Shares",
+      "content": "Convert physical share certificates into electronic form with secure dematerialization services.",
+      "image": "https://example.com/demat-shares.jpg"
+    },
+    {
+      "title": "Share Transfer",
+      "content": "Facilitate the legal transfer of shares between parties with proper documentation and MCA filing.",
+      "image": "https://example.com/share-transfer.jpg"
+    },
+    {
+      "title": "Authorized Capital Increase",
+      "content": "Increase your company’s authorized share capital with ROC filings and board resolutions.",
+      "image": "https://example.com/authorized-capital-increase.jpg"
+    },
+    {
+      "title": "AOA Amendment",
+      "content": "Modify your company’s Articles of Association as per your business needs and compliance.",
+      "image": "https://example.com/aoa-amendment.jpg"
+    },
+    {
+      "title": "MOA Amendment",
+      "content": "Change your company’s Memorandum of Association to update objectives or structure.",
+      "image": "https://example.com/moa-amendment.jpg"
+    },
+    {
+      "title": "Dormant Status Filing",
+      "content": "Apply for dormant status if your company is temporarily inactive to reduce compliance burden.",
+      "image": "https://example.com/dormant-status.jpg"
+    },
+    {
+      "title": "LLP Form 11 Filing",
+      "content": "File Form 11 annually to report details of LLP partners and compliance status to MCA.",
+      "image": "https://example.com/llp-form-11.jpg"
+    },
+    {
+      "title": "DPT-3 Filing",
+      "content": "Comply with MCA’s mandate by filing DPT-3 for returns of deposits or exempted deposits.",
+      "image": "https://example.com/dpt3-filing.jpg"
+    },
+    {
+      "title": "ADT-1 Filing",
+      "content": "File ADT-1 to inform the ROC about the appointment of auditors for your company.",
+      "image": "https://example.com/adt1-filing.jpg"
+    },
+    {
+      "title": "Remove Director",
+      "content": "Remove a director from your company with proper legal procedures and ROC updates.",
+      "image": "https://example.com/remove-director.jpg"
+    },
+    {
+      "title": "Director Change",
+      "content": "Add or change a director in your company with board resolutions and Form DIR-12.",
+      "image": "https://example.com/director-change.jpg"
+    },
+    {
+      "title": "DIN Reactivation",
+      "content": "Reinstate a deactivated Director Identification Number (DIN) through legal filings.",
+      "image": "https://example.com/din-reactivation.jpg"
+    },
+    {
+      "title": "DIN eKYC Filing",
+      "content": "File eKYC for directors annually to ensure compliance with MCA norms and avoid penalties.",
+      "image": "https://example.com/din-ekyc.jpg"
+    },
+    {
+      "title": "Registered Office Change",
+      "content": "Update the registered office address of your company with ROC through Form INC-22.",
+      "image": "https://example.com/registered-office-change.jpg"
+    },
+    {
+      "title": "Name Change - Company",
+      "content": "Change the legal name of your company through board and shareholder approval and ROC filing.",
+      "image": "https://example.com/name-change-company.jpg"
+    },
+    {
+      "title": "OPC Compliance",
+      "content": "Ensure your One Person Company (OPC) meets annual compliance and ROC filing requirements.",
+      "image": "https://example.com/opc-compliance.jpg"
+    },
+    {
+      "title": "LLP Compliance",
+      "content": "Stay compliant with ROC filing, audit, and tax requirements specific to LLPs.",
+      "image": "https://example.com/llp-compliance.jpg"
+    },
+    {
+      "title": "Company Compliance",
+      "content": "Complete support for maintaining statutory and regulatory compliance for your company.",
+      "image": "https://example.com/company-compliance.jpg"
+    }
+  ],
+  "More": [
+    {
+      "title": "Contact Us",
+      "content": "Get in touch with us for any inquiries or support.",
+      "image": "https://example.com/contact-us.jpg"
+    },
+    {
+      "title": "About Us",
+      "content": "Learn more about our company and our mission to serve you.",
+      "image": "https://example.com/about-us.jpg"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "Proprietorship": {
+    "meta": {
+      "title": "Proprietorship Registration",
+      "subtitle": "Get Your Proprietorship Registered Hassle-Free"
+    },
+    "contact": {
+      "helpText": "If You Need Any Help Contact With Us",
+      "phone": "+91-8287263997",
+      "buttonLabel": "Call Now"
+    },
+    "growthBenefits": {
+      "title": "Growth Benefits",
+      "description": "Fast setup, easy management, and minimal compliance requirements.",
+      "benefits": [
+        {
+          "title": "Quick Setup",
+          "description": "Start your business within days without complex formalities."
+        },
+        {
+          "title": "Full Control",
+          "description": "As a sole owner, make independent decisions and keep all profits."
+        }
+      ]
+    },
+    "introSection": {
+      "title": "Proprietorship Registration",
+      "description": "A sole proprietorship is the simplest form of business ownership in India. It requires minimal legal formalities, making it an ideal option for small businesses and individual entrepreneurs."
+    },
+    "faqSection": {
+      "title": "What is a Proprietorship?",
+      "description": "It is an unregistered business entity owned and managed by one individual. It doesn't require mandatory registration unless regulated by a license such as GST or Shops & Establishment."
+    },
+    "services": [
+      "Partnership",
+      "Limited Liability Partnership",
+      "Private Limited Company",
+      "Startup India",
+      "FSSAI Registration",
+      "ISO Registration"
+    ]
+  },
+  "Partnership": {
+    "meta": {
+      "title": "Partnership Registration",
+      "subtitle": "Form Your Partnership Firm with Ease"
+    },
+    "contact": {
+      "helpText": "If You Need Any Help Contact With Us",
+      "phone": "+91-8287263997",
+      "buttonLabel": "Call Now"
+    },
+    "growthBenefits": {
+      "title": "Growth Benefits",
+      "description": "Shared responsibilities and pooled capital for better business outcomes.",
+      "benefits": [
+        {
+          "title": "Combined Strength",
+          "description": "Leverage skills and resources of multiple partners."
+        },
+        {
+          "title": "Simple Compliance",
+          "description": "Lower regulatory requirements compared to companies."
+        }
+      ]
+    },
+    "introSection": {
+      "title": "Partnership Registration",
+      "description": "A partnership is a popular form of business where two or more individuals share ownership, responsibilities, and profits. It is governed by a Partnership Deed."
+    },
+    "faqSection": {
+      "title": "What is a Partnership Firm?",
+      "description": "A business structure where two or more persons join to run a business as co-owners under a legal agreement."
+    },
+    "services": [
+      "Proprietorship",
+      "LLP",
+      "Pvt Ltd Company",
+      "Startup India",
+      "GST Registration",
+      "ISO Registration"
+    ]
+  }
+}
