@@ -5,9 +5,8 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
-// import LogoImg from "../images/logo.jpeg";
+
 import LogoImg from "../images/logo02.png";
-import { ChartBarIcon, CurrencyRupeeIcon } from "@heroicons/react/24/solid";
 
 const menuItems = {
   Startup: [
