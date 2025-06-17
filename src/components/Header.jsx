@@ -17,10 +17,8 @@ const menuItems = {
     "Limited Liability Partnership",
     "Private Limited Company",
     "Section 8 Company",
-    // "Trust Registration",
+
     "Public Limited Company",
-    // "Producer Company",
-    // "Indian Subsidiary",
   ],
   Registration: [
     "Company Registration",
@@ -32,17 +30,8 @@ const menuItems = {
     "12A and 80G Registration",
     "12A Registration",
     "80G Registration",
-    // "APEDA Registration",
     "Barcode Registration",
-    // "BIS Registration",
-    // "Certificate of Incumbency",
-    // "Darpan Registration",
     "Digital Signature",
-    // "Digital Signature - DGFT Version",
-    // "Drug License",
-    // "Udyam Registration",
-    // "FCRA Registration",
-    // "Fire License",
   ],
 
   GST: [
@@ -87,14 +76,11 @@ const menuItems = {
     "Business Plan",
     "FSSAI Return Filing",
     "FSSAI Renewal",
-    // "FLA Return Filing",
-    // "FDI Filing with RBI",
   ],
   More: [
     "Contact Us",
     "About Us",
     "Services",
-    // "City",
     "Testimonials",
     "Careers",
     "Our Blog",
@@ -215,7 +201,7 @@ const Header = () => {
           >
             <button
               type="button"
-              class="text-white bg-orange-700 hover:bg-orange-600 active:bg-black focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 transition duration-300"
+              className="text-white bg-orange-700 hover:bg-orange-600 active:bg-black focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 transition duration-300"
             >
               Let's Talk
             </button>

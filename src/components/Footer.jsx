@@ -41,29 +41,29 @@ export default function Footer() {
           <h3 className="text-xl font-semibold mb-4 text-white">Quick Links</h3>
           <ul className="space-y-2 text-gray-400">
             <li>
-              <a href="/" className="hover:text-white">
+              <Link to="/" className="hover:text-white">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about us" className="hover:text-white">
+              <Link to="/about us" className="hover:text-white">
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/services" className="hover:text-white">
+              <Link to="/services" className="hover:text-white">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact us" className="hover:text-white">
+              <Link to="/contact us" className="hover:text-white">
                 Contact
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/privacy-policy" className="hover:text-white">
+              <Link to="/privacy-policy" className="hover:text-white">
                 Privacy Policy
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -112,17 +112,17 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-2">
               <Phone size={18} className="text-white" />
-              <a href="tel:+9182872 63997" className="hover:text-white">
+              <Link to="tel:+9182872 63997" className="hover:text-white">
                 +91 8287263997
-              </a>
+              </Link>
             </li>
             <li className="flex items-center gap-2">
               <Mail size={18} className="text-white" />
               <a
-                href="mailto:freedomsolutiontax@gmail.com"
+                href="mailto:info@freedomsolution.in"
                 className="hover:text-white"
               >
-                freedomsolutiontax@gmail.com
+                info@freedomsolution.in
               </a>
             </li>
           </ul>
@@ -142,10 +142,10 @@ export default function Footer() {
           >
             <Facebook size={18} />
           </a>
-          <a href="#" className="hover:text-white">
+          <a to="#" className="hover:text-white">
             <Twitter size={18} />
           </a>
-          <a href="#" className="hover:text-white">
+          <a to="#" className="hover:text-white">
             <Linkedin size={18} />
           </a>
           <a

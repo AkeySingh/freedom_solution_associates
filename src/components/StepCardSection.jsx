@@ -43,13 +43,13 @@ const StepCardSection = () => {
               transition={{ delay: index * 0.2 }}
               className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 text-center"
             >
-              <Link to={step.link}>
-                <div className="mb-4 flex justify-center">{step.icon}</div>
-                <h3 className="text-lg font-semibold text-blue-800 mb-2">
-                  {step.title}
-                </h3>
-                <p className="text-gray-600 text-sm">{step.desc}</p>
-              </Link>
+              {/* <Link to={step.link}> */}
+              <div className="mb-4 flex justify-center">{step.icon}</div>
+              <h3 className="text-lg font-semibold text-blue-800 mb-2">
+                {step.title}
+              </h3>
+              <p className="text-gray-600 text-sm">{step.desc}</p>
+              {/* </Link> */}
             </motion.div>
           ))}
         </div>

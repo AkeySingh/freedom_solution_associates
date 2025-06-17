@@ -30,25 +30,11 @@
       "content": "A Section 8 Company is a non-profit organization registered under the Companies Act 2013 in India.",
       "image": "https://example.com/section-8-company.jpg"
     },
-    {
-      "title": "Trust Registration",
-      "content": "Trust Registration is the legal process of forming a trust for charitable or social purposes.",
-      "image": "https://example.com/trust-registration.jpg"
-    },
+
     {
       "title": "Public Limited Company",
       "content": "A Public Limited Company is a company whose shares are publicly traded on the stock exchange.",
       "image": "https://example.com/public-limited-company.jpg"
-    },
-    {
-      "title": "Producer Company",
-      "content": "A Producer Company is a type of organization formed by farmers and producers to improve the marketing of their products.",
-      "image": "https://example.com/producer-company.jpg"
-    },
-    {
-      "title": "Indian Subsidiary",
-      "content": "An Indian Subsidiary is a company incorporated in India that is owned by a foreign company.",
-      "image": "https://example.com/indian-subsidiary.jpg"
     }
   ],
 
@@ -78,56 +64,7 @@
       "content": "Get your FSSAI License to run your food business legally with proper food safety approvals.",
       "image": "https://example.com/fssai-license.jpg"
     },
-    {
-      "title": "Shop Act Registration",
-      "content": "Mandatory for shops and establishments to regulate working conditions and employee rights.",
-      "image": "https://example.com/shop-act-registration.jpg"
-    },
-    {
-      "title": "Halal License & Certification",
-      "content": "Ensure your products meet Halal standards with our certification services.",
-      "image": "https://example.com/halal-license.jpg"
-    },
-    {
-      "title": "ICEGATE Registration",
-      "content": "Register on ICEGATE to facilitate imports, exports, and customs clearance digitally.",
-      "image": "https://example.com/icegate-registration.jpg"
-    },
-    {
-      "title": "Import Export Code",
-      "content": "Obtain IEC to start import-export operations under DGFT regulations.",
-      "image": "https://example.com/import-export-code.jpg"
-    },
-    {
-      "title": "Legal Entity Identifier Code",
-      "content": "LEI code is a unique ID required for legal entities participating in financial transactions.",
-      "image": "https://example.com/lei-code.jpg"
-    },
-    {
-      "title": "ISO Registration",
-      "content": "Improve your business credibility with ISO certifications across various standards.",
-      "image": "https://example.com/iso-registration.jpg"
-    },
-    {
-      "title": "PF Registration",
-      "content": "Register for Provident Fund to ensure social security benefits for employees.",
-      "image": "https://example.com/pf-registration.jpg"
-    },
-    {
-      "title": "ESI Registration",
-      "content": "ESI registration enables employee health insurance and social protection.",
-      "image": "https://example.com/esi-registration.jpg"
-    },
-    {
-      "title": "Professional Tax Registration",
-      "content": "Register to comply with state-imposed taxes on professionals and salaried employees.",
-      "image": "https://example.com/professional-tax.jpg"
-    },
-    {
-      "title": "RCMC Registration",
-      "content": "RCMC is essential for exporters to avail benefits under foreign trade policies.",
-      "image": "https://example.com/rcmc-registration.jpg"
-    },
+
     {
       "title": "TN RERA Registration for Agents",
       "content": "Mandatory for real estate agents in Tamil Nadu to operate legally under RERA.",
@@ -148,149 +85,26 @@
       "content": "Allow donors to avail income tax deductions through 80G registration.",
       "image": "https://example.com/80g-registration.jpg"
     },
-    {
-      "title": "APEDA Registration",
-      "content": "Mandatory for exporters of agricultural products to register with APEDA.",
-      "image": "https://example.com/apeda-registration.jpg"
-    },
+
     {
       "title": "Barcode Registration",
       "content": "Get barcode registration to track retail and inventory efficiently.",
       "image": "https://example.com/barcode-registration.jpg"
     },
-    {
-      "title": "BIS Registration",
-      "content": "Ensure product quality with Bureau of Indian Standards certification.",
-      "image": "https://example.com/bis-registration.jpg"
-    },
-    {
-      "title": "Certificate of Incumbency",
-      "content": "Get an official record of current officers of a company for verification.",
-      "image": "https://example.com/certificate-of-incumbency.jpg"
-    },
-    {
-      "title": "Darpan Registration",
-      "content": "NGOs must register on the Darpan portal to receive government grants.",
-      "image": "https://example.com/darpan-registration.jpg"
-    },
+
     {
       "title": "Digital Signature",
       "content": "Digital signatures are essential for online filing, contracts, and secure authentication.",
       "image": "https://example.com/digital-signature.jpg"
     },
-    {
-      "title": "Digital Signature - DGFT Version",
-      "content": "DGFT-specific DSCs are required for businesses dealing in imports/exports.",
-      "image": "https://example.com/dsc-dgft.jpg"
-    },
-    {
-      "title": "Drug License",
-      "content": "Mandatory license for businesses dealing in pharmaceutical products.",
-      "image": "https://example.com/drug-license.jpg"
-    },
+
     {
       "title": "Udyam Registration",
       "content": "Register as an MSME to enjoy various government incentives and schemes.",
       "image": "https://example.com/udyam-registration.jpg"
-    },
-    {
-      "title": "FCRA Registration",
-      "content": "Required for NGOs receiving foreign contributions or donations.",
-      "image": "https://example.com/fcra-registration.jpg"
-    },
-    {
-      "title": "Fire License",
-      "content": "Necessary for establishments to certify fire safety compliance.",
-      "image": "https://example.com/fire-license.jpg"
     }
   ],
-  "Trademark": [
-    {
-      "title": "Trademark Registration",
-      "content": "Protect your brand name and logo by registering your trademark legally.",
-      "image": "https://example.com/trademark-registration.jpg"
-    },
-    {
-      "title": "Trademark Objection",
-      "content": "We help you respond to objections raised by the Trademark Registry effectively.",
-      "image": "https://example.com/trademark-objection.jpg"
-    },
-    {
-      "title": "Trademark Certificate",
-      "content": "Get your official Trademark Certificate as proof of brand ownership.",
-      "image": "https://example.com/trademark-certificate.jpg"
-    },
-    {
-      "title": "Trademark Opposition",
-      "content": "File or defend against oppositions raised during the trademark registration process.",
-      "image": "https://example.com/trademark-opposition.jpg"
-    },
-    {
-      "title": "Trademark Hearing",
-      "content": "We represent your case during trademark hearings for approval or disputes.",
-      "image": "https://example.com/trademark-hearing.jpg"
-    },
-    {
-      "title": "Trademark Rectification",
-      "content": "Rectify any errors or issues in your registered trademark through legal procedures.",
-      "image": "https://example.com/trademark-rectification.jpg"
-    },
-    {
-      "title": "TM Infringement Notice",
-      "content": "Send legal notices in case your registered trademark rights are violated.",
-      "image": "https://example.com/tm-infringement-notice.jpg"
-    },
-    {
-      "title": "Trademark Renewal",
-      "content": "Renew your trademark before expiry to maintain ownership rights.",
-      "image": "https://example.com/trademark-renewal.jpg"
-    },
-    {
-      "title": "Trademark Transfer",
-      "content": "Legally transfer ownership of a trademark with proper documentation.",
-      "image": "https://example.com/trademark-transfer.jpg"
-    },
-    {
-      "title": "Expedited TM Registration",
-      "content": "Speed up the registration process with expedited trademark filing services.",
-      "image": "https://example.com/expedited-tm-registration.jpg"
-    },
-    {
-      "title": "International Trademark",
-      "content": "Register your trademark internationally under the Madrid Protocol.",
-      "image": "https://example.com/international-trademark.jpg"
-    },
-    {
-      "title": "Logo Designing",
-      "content": "Get a unique and professional logo designed to represent your brand.",
-      "image": "https://example.com/logo-designing.jpg"
-    },
-    {
-      "title": "Design Registration",
-      "content": "Protect the unique design and aesthetics of your product or logo.",
-      "image": "https://example.com/design-registration.jpg"
-    },
-    {
-      "title": "Design Objection",
-      "content": "Handle objections raised in your design registration application professionally.",
-      "image": "https://example.com/design-objection.jpg"
-    },
-    {
-      "title": "Copyright Registration",
-      "content": "Secure your creative work legally through copyright registration.",
-      "image": "https://example.com/copyright-registration.jpg"
-    },
-    {
-      "title": "Copyright Objection",
-      "content": "Respond to objections raised against your copyright application with legal support.",
-      "image": "https://example.com/copyright-objection.jpg"
-    },
-    {
-      "title": "Patent Registration",
-      "content": "Protect your unique invention with a registered patent in India.",
-      "image": "https://example.com/patent-registration.jpg"
-    }
-  ],
+  "Trademark": [],
   "GST": [
     {
       "title": "GST Registration",
@@ -482,108 +296,7 @@
       "image": "https://example.com/fdi-filing-rbi.jpg"
     }
   ],
-  "MCA": [
-    {
-      "title": "Winding Up - Company",
-      "content": "Assistance with voluntary or compulsory company winding-up process in compliance with MCA norms.",
-      "image": "https://example.com/winding-up-company.jpg"
-    },
-    {
-      "title": "Winding Up - LLP",
-      "content": "Professional support to wind up LLPs legally through streamlined documentation and filing.",
-      "image": "https://example.com/winding-up-llp.jpg"
-    },
-    {
-      "title": "Demat of Shares",
-      "content": "Convert physical share certificates into electronic form with secure dematerialization services.",
-      "image": "https://example.com/demat-shares.jpg"
-    },
-    {
-      "title": "Share Transfer",
-      "content": "Facilitate the legal transfer of shares between parties with proper documentation and MCA filing.",
-      "image": "https://example.com/share-transfer.jpg"
-    },
-    {
-      "title": "Authorized Capital Increase",
-      "content": "Increase your company’s authorized share capital with ROC filings and board resolutions.",
-      "image": "https://example.com/authorized-capital-increase.jpg"
-    },
-    {
-      "title": "AOA Amendment",
-      "content": "Modify your company’s Articles of Association as per your business needs and compliance.",
-      "image": "https://example.com/aoa-amendment.jpg"
-    },
-    {
-      "title": "MOA Amendment",
-      "content": "Change your company’s Memorandum of Association to update objectives or structure.",
-      "image": "https://example.com/moa-amendment.jpg"
-    },
-    {
-      "title": "Dormant Status Filing",
-      "content": "Apply for dormant status if your company is temporarily inactive to reduce compliance burden.",
-      "image": "https://example.com/dormant-status.jpg"
-    },
-    {
-      "title": "LLP Form 11 Filing",
-      "content": "File Form 11 annually to report details of LLP partners and compliance status to MCA.",
-      "image": "https://example.com/llp-form-11.jpg"
-    },
-    {
-      "title": "DPT-3 Filing",
-      "content": "Comply with MCA’s mandate by filing DPT-3 for returns of deposits or exempted deposits.",
-      "image": "https://example.com/dpt3-filing.jpg"
-    },
-    {
-      "title": "ADT-1 Filing",
-      "content": "File ADT-1 to inform the ROC about the appointment of auditors for your company.",
-      "image": "https://example.com/adt1-filing.jpg"
-    },
-    {
-      "title": "Remove Director",
-      "content": "Remove a director from your company with proper legal procedures and ROC updates.",
-      "image": "https://example.com/remove-director.jpg"
-    },
-    {
-      "title": "Director Change",
-      "content": "Add or change a director in your company with board resolutions and Form DIR-12.",
-      "image": "https://example.com/director-change.jpg"
-    },
-    {
-      "title": "DIN Reactivation",
-      "content": "Reinstate a deactivated Director Identification Number (DIN) through legal filings.",
-      "image": "https://example.com/din-reactivation.jpg"
-    },
-    {
-      "title": "DIN eKYC Filing",
-      "content": "File eKYC for directors annually to ensure compliance with MCA norms and avoid penalties.",
-      "image": "https://example.com/din-ekyc.jpg"
-    },
-    {
-      "title": "Registered Office Change",
-      "content": "Update the registered office address of your company with ROC through Form INC-22.",
-      "image": "https://example.com/registered-office-change.jpg"
-    },
-    {
-      "title": "Name Change - Company",
-      "content": "Change the legal name of your company through board and shareholder approval and ROC filing.",
-      "image": "https://example.com/name-change-company.jpg"
-    },
-    {
-      "title": "OPC Compliance",
-      "content": "Ensure your One Person Company (OPC) meets annual compliance and ROC filing requirements.",
-      "image": "https://example.com/opc-compliance.jpg"
-    },
-    {
-      "title": "LLP Compliance",
-      "content": "Stay compliant with ROC filing, audit, and tax requirements specific to LLPs.",
-      "image": "https://example.com/llp-compliance.jpg"
-    },
-    {
-      "title": "Company Compliance",
-      "content": "Complete support for maintaining statutory and regulatory compliance for your company.",
-      "image": "https://example.com/company-compliance.jpg"
-    }
-  ],
+  "MCA": [],
   "More": [
     {
       "title": "Contact Us",

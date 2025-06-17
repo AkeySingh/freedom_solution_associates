@@ -5,14 +5,12 @@ import teamImg from "../images/Team.svg";
 export default function AboutUs() {
   return (
     <div className="bg-gray-50 text-gray-800">
-      {/* <PaymentQRForm /> */}
-      {/* Page Header */}
-      <section className="bg-white py-20 text-center">
+      <section className=" bg-blue-900 text-white py-16 text-center">
         <motion.h1
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl md:text-5xl font-bold text-blue-900"
+          className="text-4xl md:text-5xl font-semibold  text-white-900 tracking-tight font-serif"
         >
           About Us
         </motion.h1>
@@ -20,7 +18,7 @@ export default function AboutUs() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
-          className="text-lg text-gray-600 mt-4 max-w-2xl mx-auto"
+          className="text-lg text-white-600 mt-4 max-w-2xl mx-auto"
         >
           We are a team of professional Chartered Accountants offering modern,
           efficient, and reliable financial services for businesses and

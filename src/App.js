@@ -7,6 +7,8 @@ import ProductCategories from "./pages/ProductCategories";
 import ContactPopup from "./components/ContactPopup";
 import { motion, AnimatePresence } from "framer-motion";
 import PaymentFormWithQR from "./pages/PaymentFormWithQR";
+import ScrollToTop from "./components/ScrollToTop";
+import Testimonials from "./pages/Testimonial";
 
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
@@ -23,14 +25,6 @@ function App() {
 
   const [isFormOk, setIsFormOk] = useState(false);
 
-  // useEffect(() => {
-  //   // console.log(isFormOk);
-  //   // const timer = setTimeout(() => {
-  //   //   setShowModal(!showModal);
-  //   // }, 4000);
-  //   // return () => clearTimeout(timer);
-  // }, [isFormOk]);
-
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
@@ -42,6 +36,7 @@ function App() {
         >
           💬 Chat on WhatsApp
         </a>
+        <ScrollToTop />
         <Header />
         <main className="flex-grow">
           <Suspense fallback={<Spinner />}>
@@ -56,7 +51,7 @@ function App() {
               <Route path="/our blog" element={<BlogPage />} />
               <Route path="/blog/:slug" element={<BlogDetail />} />
               <Route path="/services" element={<Services />} />
-              {/* <Route path="/contact us" element={<ContactForm />} /> */}
+              <Route path="/testimonials" element={<Testimonials />} />
               <Route path="/contact us" element={<Contact />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/payment" element={<PaymentFormWithQR />} />

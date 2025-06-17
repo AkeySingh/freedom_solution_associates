@@ -52,12 +52,14 @@ export default function Services() {
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* Header */}
-      <section className="text-center py-20 bg-white">
+      {/* <section className="text-center py-20 bg-white"> */}
+
+      <section className=" bg-blue-900 text-white py-16 text-center">
         <motion.h1
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl md:text-5xl font-bold text-blue-900"
+          className="text-4xl md:text-5xl font-bold text-white-900"
         >
           Our Financial Services
         </motion.h1>
@@ -65,7 +67,7 @@ export default function Services() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
-          className="text-lg text-gray-600 mt-4 max-w-2xl mx-auto"
+          className="text-lg text-white-600 mt-4 max-w-2xl mx-auto"
         >
           Empowering businesses and individuals with end-to-end accounting, tax,
           compliance, and advisory services.

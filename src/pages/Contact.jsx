@@ -156,7 +156,7 @@ export default function ContactUs() {
           <iframe
             title="Our Office Location on Google Maps"
             src="https://www.google.com/maps?q=28.585260,77.312930&output=embed"
-            class="w-full h-64 border-0 rounded-lg shadow-md"
+            className="w-full h-64 border-0 rounded-lg shadow-md"
             allowfullscreen
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"

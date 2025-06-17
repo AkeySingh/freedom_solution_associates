@@ -32,12 +32,37 @@ function Product() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  // const onSubmit = async (e) => {
+  //   e.preventDefault();
+  //   setSubmitting(true);
+
+  //   const formData = new FormData(e.target);
+  //   formData.append("access_key", "62b12f11-1967-403c-a40f-12894f3e0f7f");
+
+  //   const res = await fetch("https://api.web3forms.com/submit", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //       Accept: "application/json",
+  //     },
+  //     body: JSON.stringify(Object.fromEntries(formData)),
+  //   }).then((res) => res.json());
+
+  //   setSubmitting(false);
+  //   if (res.success) {
+  //     e.target.reset();
+  //     setShowModal(true);
+  //   } else {
+  //     alert("Failed to send message. Please try again.");
+  //   }
+  // };
+
   const onSubmit = async (e) => {
     e.preventDefault();
     setSubmitting(true);
 
     const formData = new FormData(e.target);
-    formData.append("access_key", "62b12f11-1967-403c-a40f-12894f3e0f7f");
+    formData.append("access_key", "de7a0dda-84e5-448a-9090-0180388bc35c");
 
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -52,6 +77,11 @@ function Product() {
     if (res.success) {
       e.target.reset();
       setShowModal(true);
+      setFormData({
+        name: "",
+        phone: "",
+        message: "",
+      });
     } else {
       alert("Failed to send message. Please try again.");
     }
@@ -340,7 +370,7 @@ function Product() {
               </h4>
               <p className="text-sm text-gray-600 mt-2">
                 Thank you for reaching out. Our team has received your message
-                and will respond within 1–2 business days.
+                and will respond within 24 hours.
               </p>
 
               <button

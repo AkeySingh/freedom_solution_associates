@@ -19,10 +19,7 @@ const StartupCards = () => {
   const param = useParams();
 
   useEffect(() => {
-    console.log(param);
-
     if (Object.keys(db).includes(param.id)) {
-      console.log(db[param.id]);
       setServices(db[param.id]);
     }
     if (param.id === "Startup") {
@@ -63,13 +60,13 @@ const StartupCards = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           {services.map((item, index) => (
             <motion.div
-              key={item.id}
+              key={item.id + item.title}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
               className="bg-white rounded-2xl shadow-md hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 p-4 cursor-pointer"
             >
-              <h1 class="text-4xl w-100 p-1  object-cover  md:text-4xl font-orbitron text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-red-500 to-red-500 drop-shadow-lg tracking-widest hover:animate-pulse">
+              <h1 className="text-4xl w-100 p-1  object-cover  md:text-4xl font-orbitron text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-red-500 to-red-500 drop-shadow-lg tracking-widest hover:animate-pulse">
                 {item.title}
               </h1>
 
@@ -82,7 +79,7 @@ const StartupCards = () => {
                 </p>
 
                 <Link
-                  to={item.link}
+                  to={`/services/${item.title}`}
                   className="inline-flex items-center mt-4 text-[#1f3c88] font-semibold text-sm group transition-all duration-300 px-4 py-2 rounded-md border border-[#1f3c88] hover:bg-[#1f3c88] hover:text-white"
                 >
                   READ MORE
