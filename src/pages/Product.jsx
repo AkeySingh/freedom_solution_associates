@@ -276,6 +276,9 @@ function Product() {
               </ul>
             </div>
           </section>
+          <section>
+            <img src={data.drowImage} />
+          </section>
 
           <section>
             <h2 className="text-3xl font-bold text-blue-900 mb-4">
@@ -320,10 +323,6 @@ function Product() {
                 <li key={i}>{item}</li>
               ))}
             </ul>
-          </section>
-
-          <section>
-            <img src={data.drowImage} />
           </section>
 
           <section>

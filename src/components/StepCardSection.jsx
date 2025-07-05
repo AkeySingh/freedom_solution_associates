@@ -13,7 +13,17 @@ const StepCardSection = () => {
     },
     {
       title: "Payment",
-      link: "payment",
+      link: (
+        <form>
+          <script
+            src="https://checkout.razorpay.com/v1/payment-button.js"
+            data-payment_button_id="pl_QnoavuKS04tSMc"
+            async
+          >
+            {" "}
+          </script>{" "}
+        </form>
+      ),
       desc: "Make the online payment.",
       icon: <CreditCard className="w-10 h-10 text-blue-600" />,
     },
