@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import Products from "../assets/product-data.json";
+import { Products } from "../assets/product-data.js";
 import Spinner from "../components/Spinner";
 import { motion, AnimatePresence } from "framer-motion";
 import { Phone, CheckCircle } from "lucide-react";
@@ -323,14 +323,7 @@ function Product() {
           </section>
 
           <section>
-            <h3 className="text-xl font-semibold text-blue-800 mb-2">
-              {data.disadvantages.title}
-            </h3>
-            <ul className="list-disc list-inside text-gray-700 space-y-2">
-              {data.disadvantages.details.map((item, i) => (
-                <li key={i}>{item}</li>
-              ))}
-            </ul>
+            <img src={data.drowImage} />
           </section>
 
           <section>
