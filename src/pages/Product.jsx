@@ -332,6 +332,7 @@ function Product() {
                 </li>
               ))}
             </ul>
+            ""
           </section>
 
           <section>
