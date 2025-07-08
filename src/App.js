@@ -22,8 +22,15 @@ const PrivacyPolicy = lazy(() => import("./pages/PrivicyPolicy"));
 
 function App() {
   const [showModal, setShowModal] = useState(false);
-
   const [isFormOk, setIsFormOk] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowModal(true);
+    }, 10000); // 10 seconds
+
+    return () => clearTimeout(timer); // Cleanup on unmount
+  }, []);
 
   return (
     <Router>
@@ -72,21 +79,29 @@ function App() {
             exit={{ opacity: 0 }}
           >
             <motion.div
-              className="bg-white w-full max-w-sm p-6 rounded-2xl shadow-2xl text-center relative border border-blue-100"
+              className="bg-blue-950 w-1/2  rounded-2xl shadow-2xl text-center relative border border-blue-100"
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
               transition={{ duration: 0.3 }}
             >
-              <h1 className=" text-3xl font-bold"> Contact Us</h1>
-              {/*  This is form tempoalte */}
+              <button
+                onClick={() => setShowModal(false)}
+                className="absolute top-4 right-4 text-white hover:text-red-400 text-2xl font-bold focus:outline-none"
+                aria-label="Close"
+              >
+                &times;
+              </button>
+
               <ContactPopup
                 setShowModal={setShowModal}
                 isFormOk={isFormOk}
                 setIsFormOk={setIsFormOk}
               />
 
-              <div className="absolute -inset-1 z-[-1] bg-gradient-to-tr from-blue-400 to-purple-500 opacity-10 rounded-2xl blur-2xl"></div>
+              <div className="absolute -inset-1 z-[-1] bg-gradient-to-tr from-blue-400 to-purple-500 opacity-10 rounded-2xl blur-2xl">
+                {" "}
+              </div>
             </motion.div>
           </motion.div>
         )}

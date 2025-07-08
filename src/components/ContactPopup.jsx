@@ -27,6 +27,7 @@ export default function ContactPopup(props) {
 
   const onSubmit = async (data, e) => {
     console.log(data);
+
     await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
@@ -59,7 +60,22 @@ export default function ContactPopup(props) {
 
   return (
     <>
-      <div className="w-full max-w-sm mx-auto my-5 border border-gray-100 rounded-md p-7">
+      <div className="w-full max-w-lg mx-auto  rounded-xl   p-8 bg-blue-0 text-white shadow-2xl relative">
+        {!isSubmitSuccessful && !isSuccess ? (
+          <h1 className="text-xl md:text-xl pb-6 font-bold text-white text-center leading-snug ">
+            <span className="text-blue-300 ">Submit your details </span>
+            <span className="text-white">
+              to get an{" "}
+              <span className="text-yellow-300 font-semibold">
+                instant inclusive quote
+              </span>{" "}
+              in your e-mail or get a free consultation!
+            </span>
+          </h1>
+        ) : (
+          ""
+        )}
+
         {!isSubmitSuccessful && (
           <form onSubmit={handleSubmit(onSubmit)}>
             <input
@@ -86,7 +102,7 @@ export default function ContactPopup(props) {
                 type="text"
                 placeholder="Full Name"
                 autoComplete="false"
-                className={`w-full px-4 py-3 border-2  rounded-md outline-none  focus:ring-4  ${
+                className={`w-full text-black px-4 py-3 border-2  rounded-md outline-none  focus:ring-4  ${
                   errors.name
                     ? "border-red-600 focus:border-red-600 ring-red-100"
                     : "border-gray-300 focus:border-blue-900 ring-blue-100"
@@ -113,7 +129,7 @@ export default function ContactPopup(props) {
                 placeholder="Email Address"
                 name="email"
                 autoComplete="false"
-                className={`w-full px-4 py-3 border-2  rounded-md outline-none  focus:ring-4  ${
+                className={`w-full text-black px-4 py-3 border-2  rounded-md outline-none  focus:ring-4  ${
                   errors.email
                     ? "border-red-600 focus:border-red-600 ring-red-100"
                     : "border-gray-300 focus:border-blue-600 ring-blue-100"
@@ -133,11 +149,42 @@ export default function ContactPopup(props) {
               )}
             </div>
 
+            <div className="mb-5">
+              <label htmlFor="phone_number" className="sr-only">
+                Phone Number
+              </label>
+              <input
+                id="phone_number"
+                type="tel"
+                placeholder="Phone Number"
+                name="phone"
+                autoComplete="tel"
+                className={`w-full text-black px-4 py-3 border-2 rounded-md outline-none focus:ring-4 ${
+                  errors.phone
+                    ? "border-red-600 focus:border-red-600 ring-red-100"
+                    : "border-gray-300 focus:border-blue-600 ring-blue-100"
+                }`}
+                {...register("phone", {
+                  required: "Enter your Phone Number",
+                  pattern: {
+                    value: /^[0-9+\-\s()]{7,20}$/,
+                    message: "Please enter a valid phone number",
+                  },
+                })}
+              />
+
+              {errors.phone && (
+                <div className="mt-1 text-red-600">
+                  <small>{errors.phone.message}</small>
+                </div>
+              )}
+            </div>
+
             <div className="mb-3">
               <textarea
                 name="message"
                 placeholder="Your Message"
-                className={`w-full px-4 py-3 border-2  rounded-md outline-none  h-36  focus:ring-4  ${
+                className={`w-full text-black px-4 py-3 border-2  rounded-md outline-none  h-36  focus:ring-4  ${
                   errors.message
                     ? "border-red-600 focus:border-red-600 ring-red-100"
                     : "border-gray-300 focus:border-blue-600 ring-blue-100"
@@ -201,7 +248,7 @@ export default function ContactPopup(props) {
                 />
               </svg>
               <h3 className="py-5 text-2xl text-green-500">Success</h3>
-              <p className="text-gray-700 md:px-3">{Message}</p>
+              <p className="text-white-700 md:px-3">{Message}</p>
               <button
                 className="mt-6 text-blue-600 focus:outline-none"
                 onClick={() => reset()}

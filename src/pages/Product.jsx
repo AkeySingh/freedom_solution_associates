@@ -13,6 +13,8 @@ import mcaImg from "../images/mca.jpg";
 import incomtaxImg from "../images/income-tax.png";
 import complienceImg from "../images/comliance.jpg";
 
+import { IoCheckmarkCircle } from "react-icons/io5";
+
 function Product() {
   const { id } = useParams();
   const [data, setData] = useState([]);
@@ -269,9 +271,13 @@ function Product() {
               <h3 className="text-2xl font-semibold text-blue-800 mb-3">
                 Required Legal Documents
               </h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-700">
+
+              <ul className="space-y-4 text-gray-700">
                 {data.growthBenefits.legalDocumentation.map((doc, idx) => (
-                  <li key={idx}>{doc}</li>
+                  <li key={idx} className="flex items-start space-x-1">
+                    <IoCheckmarkCircle className="text-green-500 text-xl  font-bold" />
+                    <span>{doc}</span>
+                  </li>
                 ))}
               </ul>
             </div>
@@ -281,7 +287,7 @@ function Product() {
           </section>
 
           <section>
-            <h2 className="text-3xl font-bold text-blue-900 mb-4">
+            <h2 className="text-2xl font-bold text-blue-900 pt-4 ">
               {data.introSection.title}
             </h2>
             <p className="text-gray-700 leading-relaxed">
@@ -290,7 +296,7 @@ function Product() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-blue-900 mb-2">
+            <h2 className="text-2xl font-bold text-blue-900 pt-4 mb-2">
               {data.faqSection.title}
             </h2>
             <p className="text-gray-700 leading-relaxed">
@@ -300,7 +306,7 @@ function Product() {
 
           {data.topics.map((topic, i) => (
             <section key={i}>
-              <h3 className="text-xl font-semibold text-blue-800 mb-2">
+              <h3 className="text-xl font-semibold text-blue-800 pt-4 mb-2">
                 {topic.title}
               </h3>
               <p className="text-gray-700">{topic.details}</p>
@@ -308,25 +314,28 @@ function Product() {
           ))}
 
           <section>
-            <h3 className="text-xl font-semibold text-blue-800 mb-2">
+            <h3 className="text-xl font-semibold text-blue-800 pt-4 mb-2">
               {data.essentialFor.title}
             </h3>
             <p className="text-gray-700">{data.essentialFor.details}</p>
           </section>
 
           <section>
-            <h3 className="text-xl font-semibold text-blue-800 mb-2">
+            <h3 className="text-xl font-semibold text-blue-800 pt-4 mb-2">
               {data.advantages.title}
             </h3>
-            <ul className="list-disc list-inside text-gray-700 space-y-2">
+            <ul className="list-none list-inside text-gray-700 space-y-2">
               {data.advantages.details.map((item, i) => (
-                <li key={i}>{item}</li>
+                <li key={i} className="flex items-start space-x-2">
+                  <IoCheckmarkCircle className="text-green-500 text-xl mt-1 font-bold" />{" "}
+                  <span>{item}</span>
+                </li>
               ))}
             </ul>
           </section>
 
           <section>
-            <h3 className="text-xl font-semibold text-blue-800 mb-2">
+            <h3 className="text-xl font-semibold text-blue-800 pt-4 mb-2">
               {data.registrationWithUs.title}
             </h3>
             <p className="text-gray-700">{data.registrationWithUs.details}</p>
