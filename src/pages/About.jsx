@@ -119,7 +119,7 @@ export default function AboutUs() {
               ],
               [
                 "Client-Centric",
-                "We’ve successfully served over 120 SMEs, tailoring solutions based on business goals, compliance needs, and growth plans.",
+                "We’ve successfully served over 440 SMEs, tailoring solutions based on business goals, compliance needs, and growth plans.",
               ],
               [
                 "Tech-Driven",

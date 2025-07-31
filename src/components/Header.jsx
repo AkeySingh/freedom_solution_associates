@@ -188,12 +188,6 @@ const Header = () => {
           {renderDropdown("MCA", menuItems.MCA, "MCA")}
           {renderDropdown("More", menuItems.More, "More")}
 
-          {/* <a
-            href="/about us"
-            className="text-white hover:text-[#FF8C00] font-medium transition duration-200"
-          >
-            About Us
-          </a> */}
           <a
             href="tel:9958088591"
             className="text-white font-medium transition duration-200"
@@ -238,7 +232,7 @@ const Header = () => {
                       key={idx}
                       className="text-white text-sm py-1 hover:text-[#FF8C00] transition duration-150"
                     >
-                      {item}
+                      {item} h
                     </p>
                   ))}
                 </div>

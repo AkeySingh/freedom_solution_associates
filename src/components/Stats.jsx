@@ -41,7 +41,7 @@ const Stats = () => {
   const stats = [
     { target: 250, label: "Projects Completed" },
     { target: 440, label: "Happy Clients" },
-    { target: 10, label: "Years of Experience" },
+    { target: 6, label: "Years of Experience" },
   ];
 
   return (

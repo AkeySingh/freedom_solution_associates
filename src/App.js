@@ -27,7 +27,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowModal(true);
-    }, 10000); // 10 seconds
+    }, 5000); // 10 seconds
 
     return () => clearTimeout(timer); // Cleanup on unmount
   }, []);
@@ -73,35 +73,35 @@ function App() {
       <AnimatePresence>
         {showModal && (
           <motion.div
-            className="fixed inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-black/60 to-black/80 backdrop-blur-sm"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-black/60 to-black/80 backdrop-blur-sm px-4 sm:px-6"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
             <motion.div
-              className="bg-blue-950 w-1/2  rounded-2xl shadow-2xl text-center relative border border-blue-100"
+              className="relative bg-blue-0 max-w-2xl p-0 rounded-2xl shadow-2xl text-center border border-blue-100"
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
               transition={{ duration: 0.3 }}
             >
+              {/* Close Button */}
               <button
                 onClick={() => setShowModal(false)}
-                className="absolute top-4 right-4 text-white hover:text-red-400 text-2xl font-bold focus:outline-none"
+                className="absolute top-4 right-4 text-red-500 hover:text-red-400 text-3xl font-bold z-10"
                 aria-label="Close"
               >
                 &times;
               </button>
-
+              {/* Contact Form */}
               <ContactPopup
                 setShowModal={setShowModal}
                 isFormOk={isFormOk}
                 setIsFormOk={setIsFormOk}
               />
 
-              <div className="absolute -inset-1 z-[-1] bg-gradient-to-tr from-blue-400 to-purple-500 opacity-10 rounded-2xl blur-2xl">
-                {" "}
-              </div>
+              {/* Subtle Glow Gradient Background */}
+              <div className="absolute -inset-1 z-[-1] bg-gradient-to-tr from-blue-400 to-purple-500 opacity-10 rounded-2xl blur-2xl"></div>
             </motion.div>
           </motion.div>
         )}
