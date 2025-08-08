@@ -228,12 +228,21 @@ const Header = () => {
               {activeDropdown === section && (
                 <div className="pl-4 mt-1">
                   {items.map((item, idx) => (
-                    <p
+                    <Link
                       key={idx}
-                      className="text-white text-sm py-1 hover:text-[#FF8C00] transition duration-150"
+                      to={
+                        section !== "More"
+                          ? `/services/${item}`
+                          : `/${item.toLowerCase()}`
+                      }
+                      onClick={() => {
+                        setActiveDropdown(null);
+                        setMobileMenuOpen(false); // Close menu after click
+                      }}
+                      className="block text-white text-sm py-1 hover:text-[#FF8C00] transition duration-150"
                     >
-                      {item} h
-                    </p>
+                      {item}
+                    </Link>
                   ))}
                 </div>
               )}

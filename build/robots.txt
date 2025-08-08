@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://freedomsolution.in/sitemap.xml

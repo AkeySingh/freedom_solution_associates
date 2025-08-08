@@ -76,7 +76,7 @@ export default function ContactPopup(props) {
           <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
             <input
               type="hidden"
-              value="62b12f11-1967-403c-a40f-12894f3e0f7f"
+              value="de7a0dda-84e5-448a-9090-0180388bc35c" // de7a0dda-84e5-448a-9090-0180388bc35c
               {...register("access_key")}
             />
             <input type="hidden" {...register("subject")} />
@@ -223,50 +223,3 @@ export default function ContactPopup(props) {
     </>
   );
 }
-
-// import React, { useEffect } from "react";
-
-// export default function ContactPopup({ setShowModal, setIsFormOk }) {
-//   useEffect(() => {
-//     // Load the HubSpot form script
-//     const script = document.createElement("script");
-//     script.src = "https://js.hsforms.net/forms/v2.js";
-//     script.async = true;
-//     script.defer = true;
-
-//     script.onload = () => {
-//       if (window.hbspt) {
-//         window.hbspt.forms.create({
-//           region: "na1", // Change this if you're in a different region (e.g., "eu1")
-//           portalId: "YOUR_PORTAL_ID", // 🔁 Replace with your HubSpot portal ID
-//           formId: "YOUR_FORM_ID", // 🔁 Replace with your HubSpot form ID
-//           target: "#hubspotForm",
-//           onFormSubmitted: () => {
-//             // Optional callbacks for modal logic
-//             if (setShowModal) setShowModal(true);
-//             if (setIsFormOk) setIsFormOk(true);
-//           },
-//         });
-//       }
-//     };
-
-//     document.body.appendChild(script);
-//   }, [setShowModal, setIsFormOk]);
-
-//   return (
-//     <div className="w-full max-w-lg mx-auto rounded-xl p-6 sm:p-8 bg-white shadow-2xl relative text-black">
-//       <h1 className="text-lg sm:text-xl pb-6 font-bold text-center leading-snug">
-//         <span className="text-blue-700">Submit your details</span> to get an{" "}
-//         <span className="text-yellow-500 font-semibold">
-//           instant inclusive quote
-//         </span>{" "}
-//         or a free consultation!
-//       </h1>
-
-//       {/* HubSpot will inject the form into this div */}
-//       <div id="hubspotForm" className="min-h-[300px]">
-//         kjhjklhjhs
-//       </div>
-//     </div>
-//   );
-// }
